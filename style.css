@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy";
+  box-sizing: border-box; 
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+
+}
+#top{
+    width: 100%;
+    min-height: 60vh;
+    /* background-color: red; */
+    background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202307/chandrayaan-3-122602-16x9.jpg?VersionId=ypZW_PfMz5_vSYPrhKoljXr0pWFAeJA9&size=690:388);
+    background-size: cover;
+    background-position: 50% 60%;
+}
+#overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(223, 208, 208, 0.27);
+
+}
+#text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    color: #fff;
+    padding: 0 10vw;
+    /* height: 120px; */
+    /* background-color: red; */
+    color: #fff;
+}
+#textright{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+#textright p{
+    font-size: 12px;
+    width: 40%;
+}
+#textright i{
+    color: #fff;
+}
+#text h1{
+    font-weight: 500;
+    font-size: 6vw;
+    
+
+}
+#bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    background-color: blueviolet;
+}
+#bone{
+    /* display: flex; */
+    padding: 30px;
+    width: 25%;
+    min-height: inherit;
+    background-color: #fff;
+}
+#bone p{
+    font-size: 12px;
+    margin-top: 20px;
+
+
+}
+#btwo{
+    width: 25%;
+    min-height: inherit;
+    /* background-color: green;
+     */
+     background-image: url(https://images.unsplash.com/photo-1530007874544-a6f7674b5a47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+     background-size: cover;
+     background-position: center;
+}
+#bthree{ 
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+}
+#bthreetop{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    color: #fff;
+    background-color: rebeccapurple;
+}
+#bthreetop p{
+    margin-top: 10px;
+    font-size: 10px;
+
+}
+#bthreebottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+    background-image: url(https://images.unsplash.com/photo-1567360425618-1594206637d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=268&q=80);
+    background-size: cover;
+}
+#bfour{
+    width: 30%;
+    min-height: inherit;
+    padding: 30px;
+    background-color: #444;
+    color: #fff;
+}
+.notf{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+.notf p{
+    width: 86%;
+    font-size: 12px;
+
+
+}
+@media(max-width: 500px){
+    #overlay #text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #text h1{
+        font-size: 10vw;
+    }
+    #overlay #text #textright{
+        flex-direction: column;
+    }
+    #overlay #text #textright p{
+        width: initial;
+        margin-top: 20px;
+
+    }
+    #overlay #text #textright #icons{
+        margin-top: 30px;
+    }
+    #bottom{
+        flex-direction: ;
+    }
+}
